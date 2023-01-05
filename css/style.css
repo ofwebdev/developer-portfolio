@@ -50,6 +50,10 @@
     transform: scale(0.99);
 }
 
+.text-center {
+    text-align: center;
+}
+
 body {
     box-sizing: border-box;
 }
@@ -67,8 +71,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0px 200px;
-    padding: 50px 0px;
+    padding: 50px 200px;
 }
 
 .logo {
@@ -187,10 +190,93 @@ main{
 
 /* Education-and-experience */
 
+.resume{
+    margin-top: 100px;
+}
+
+.resume .section-title {
+    margin-bottom: 130px;
+}
+
 .education-and-experience{
     display: flex;
+    gap: 24px;
 }
 
 .my-education, .my-experience{
     width: 50%;
 }
+
+.eduction-card{
+    margin-top: 30px;
+
+}
+.my-education h5{
+    margin-top: 15px;
+    color: var(--paragraph-color)
+}
+.eduction-card p  {
+    color: var(--paragraph-color);
+    margin: 30px 0px;
+}
+
+.resume-btn {
+    margin-top: 50px;
+}
+
+
+/* Contact style */
+.contact {
+    padding: 130px 200px;
+    margin-top: 130px;
+    display: flex;
+    background-color: var(--primary-bg);
+    gap: 100px;
+    border-radius: 5px;
+}
+
+.contact h3 {
+    margin-bottom: 30px;
+}
+
+.social-icon {
+   margin-top: 30px;
+}
+
+.social-icon a {
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.contact form {
+    width: 350px;
+    display: flex;
+    flex-direction:column;
+}
+
+
+
+.contact input, textarea{
+    margin-bottom: 24px;
+    border: 0;
+    padding: 16px 30px;
+}
+
+
+
+.contact input:nth-of-type(1){
+    background-color: var(--white-color);
+    height: 50px;
+    width: 100%;
+}
+.contact input:nth-of-type(2){
+    background-color: var(--white-color);
+    height: 50px;
+    width: 100%;
+}
+
+/* Footer */
+footer{
+    margin: 80px 0px;
+}
+
